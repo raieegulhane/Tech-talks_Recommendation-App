@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+
+/* VRIABLES */
+:root {
+	/* fonts */
+	--font: "Roboto", sans-serif;
+
+	/* colors */
+	--red: #e62b1e;
+	--grey1: #777777;
+	--back: #111111;
+}
+
+/* BODY */
+body {
+	background-color: var(--back);
+	color: white;
+	font-family: var(--font);
+	text-align: center;
+}
+
+/* HEADER */
+.header {
+	margin: 0.5rem;
+	border-bottom: 3px solid var(--red);
+}
+
+.header-h1 {
+	color: var(--red);
+	font-weight: 900;
+	font-size: 45px;
+	padding-top: 1.5rem;
+	margin: 0;
+}
+
+.header-h1-talks {
+	color: white;
+	font-weight: 400;
+}
+
+.header-text {
+	color: var(--grey1);
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	padding-bottom: 2rem;
+	margin: 0;
+}
+
+/* MAIN CONTENT */
+.content {
+	display: block;
+	max-width: 1000px;
+	padding: 1rem;
+	margin: auto;
+}
+
+.content-text {
+	color: var(--grey1);
+	padding-bottom: 1rem;
+}
+
+/* GENRE BUTTONS */
+.button {
+	min-width: 10rem;
+	background-color: var(--back);
+	color: var(--red);
+	font-family: var(--font);
+	font-weight: bold;
+	padding: 0.5rem;
+	border: 3px solid var(--red);
+	border-radius: 2rem;
+	margin: 0.5rem 0.7rem;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+.button:hover {
+	background-color: var(--red);
+	color: white;
+}
+
+.button:focus {
+	background-color: var(--red);
+	color: white;
+}
+
+/* GENRE DISPLAY */
+.genre-display {
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding-top: 1rem;
+	margin: 0;
+	transition: 0.7s;
+}
+
+/* DISPLAY TALKS LIST */
+.talks-display {
+	display: block;
+	max-width: 600px;
+	margin: auto;
+}
+
+.talks-list {
+	text-align: left;
+	list-style: none;
+	min-width: 100%;
+	padding: 0;
+}
+
+.talks {
+	padding: 1.5rem;
+	border: 1px solid white;
+	border-radius: 1rem;
+	margin: 1rem;
+}
+
+.talks-name {
+	font-size: 21px;
+	padding-top: 0.7;
+	padding-bottom: 0.5rem;
+	margin: 0;
+}
+
+.talks-speaker {
+	color: var(--red);
+	padding-bottom: 1rem;
+}
+
+.talks-link {
+	color: var(--red);
+	font-family: var(--font);
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0.3rem 0.7rem;
+	border-radius: 7px;
+	background-color: white;
+	transition: 0.7s;
+}
+
+.talks-link:hover {
+	color: white;
+	background-color: var(--red);
+}
