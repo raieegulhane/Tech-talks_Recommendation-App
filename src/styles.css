@@ -117,15 +117,22 @@ body {
 }
 
 .talks-name {
-	font-size: 21px;
+	font-size: 25px;
 	padding-top: 0.7;
-	padding-bottom: 0.5rem;
+	padding-bottom: 0.3rem;
 	margin: 0;
 }
 
 .talks-speaker {
+	font-size: 18px;
 	color: var(--red);
-	padding-bottom: 1rem;
+	padding-bottom: 0.8rem;
+}
+
+.talks-rating {
+	color: var(--grey1);
+	font-size: 15px;
+	padding-bottom: 1.5rem;
 }
 
 .talks-link {
